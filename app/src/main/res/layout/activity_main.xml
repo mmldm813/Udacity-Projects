@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.michellemedina.miamicenterforcosmeticandimplantdentistry.MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/womanteethdisplaycrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/MiamiCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miami Center for Cosmetic"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/ImplantDentistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="and Implant Dentistry"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:layout_below="@id/MiamiCenter" />
+
+    <Button
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="305-555-5555"
+        android:background="@android:color/transparent"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:paddingLeft="40dp"
+        android:layout_below="@+id/MiamiCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/callnow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call now"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:layout_below="@id/phonenumber"
+        android:layout_marginLeft="55dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="for an appointment"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:layout_below="@+id/callnow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13840 SW 56 St."
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="monospace"
+        android:textSize="15sp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miami, FL 33175"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="15sp"
+        android:layout_marginRight="5dp"/>
+</RelativeLayout>
